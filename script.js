@@ -1,4 +1,4 @@
-const API_KEY = "PUT_YOUR_OPENAI_KEY_HERE";
+const API_KEY = "ai-2026";
 
 function add(msg, who){
   document.getElementById("chat").innerHTML +=
