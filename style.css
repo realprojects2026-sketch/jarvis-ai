@@ -1,1 +1,48 @@
+body {
+  background: black;
+  color: cyan;
+  font-family: monospace;
+  text-align: center;
+  margin-top: 40px;
+}
 
+h1 {
+  text-shadow: 0 0 10px cyan;
+}
+
+.holo {
+  width: 180px;
+  height: 180px;
+  margin: auto;
+  border-radius: 50%;
+  background: radial-gradient(cyan, transparent);
+  box-shadow: 0 0 60px cyan;
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+
+#chat {
+  margin: 20px auto;
+  width: 80%;
+  height: 200px;
+  border: 1px solid cyan;
+  overflow-y: auto;
+  padding: 10px;
+  text-align: left;
+}
+
+input {
+  width: 60%;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  background: cyan;
+  border: none;
+  cursor: pointer;
+}
